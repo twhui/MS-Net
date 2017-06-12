@@ -11,4 +11,5 @@ You need to install <a href="https://github.com/BVLC/caffe">caffe</a> and remebe
 
 # License and Citation
 All code is provided for research purposes only and without any warranty. Any commercial use requires our consent. When using the code in your research work, please cite the following paper:
+
 "T.-W. Hui, C. C. Loy and X. Tang, Depth Map Super-Resolution by Deep Multi-Scale Guidance, pp. 353–369, ECCV16".
