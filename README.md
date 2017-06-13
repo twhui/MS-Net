@@ -9,7 +9,10 @@ The codes are based on <a href="https://github.com/BVLC/caffe">caffe</a> and Mat
 # Installation and Running
 You need to install <a href="https://github.com/BVLC/caffe">caffe</a> and remeber to complie matcaffe. You can put the folder <code>MSNet-release</code> in <code>caffe/examples</code>. Finally, you need to get into the the directory of <code>examples/MSNet-release</code>, and run <code>MSNet.m</code>. </li>
 
+# Training data
+Please refer to <a href="https://github.com/twhui/MSG-Net">MSG-Net</a>.
+
 # License and Citation
-All code is provided for research purposes only and without any warranty. Any commercial use requires our consent. When using the code in your research work, please cite the following paper:
+All code is provided for research purposes only and without any warranty. Any commercial use requires our consent. When using the code and/or training data in your research work, please cite the following paper:
 
 "T.-W. Hui, C. C. Loy and X. Tang, Depth Map Super-Resolution by Deep Multi-Scale Guidance, pp. 353–369, ECCV16".
