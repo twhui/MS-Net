@@ -1,0 +1,120 @@
+name: "MSNet_x16"
+
+input: "data-D"
+input_dim: 1
+input_dim: 1
+input_dim: 8
+input_dim: 8
+
+layer {
+  name: "conv1-D"
+  type: "Convolution"
+  bottom: "data-D"
+  top: "conv1-D"
+  convolution_param {
+    num_output: 64
+    kernel_size: 5
+    stride: 1
+    pad: 2
+  }
+}
+
+layer {
+  name: "prelu1-D"
+  type: "PReLU"
+  bottom: "conv1-D"
+  top: "conv1-D"
+}
+
+layer {
+  name: "deconv2-D"
+  type: "Deconvolution"
+  bottom: "conv1-D"
+  top: "deconv2-D"
+  convolution_param {
+    num_output: 32
+    kernel_size: 5
+    stride: 2
+    pad: 2
+  }
+}
+
+layer {
+  name: "prelu2-D"
+  type: "PReLU"
+  bottom: "deconv2-D"
+  top: "deconv2-D"
+}
+
+layer {
+  name: "deconv3-D"
+  type: "Deconvolution"
+  bottom: "deconv2-D"
+  top: "deconv3-D"
+  convolution_param {
+    num_output: 32
+    kernel_size: 5
+    stride: 2
+    pad: 1
+  }
+}
+
+layer {
+  name: "prelu3-D"
+  type: "PReLU"
+  bottom: "deconv3-D"
+  top: "deconv3-D"
+}
+
+layer {
+  name: "deconv4-D"
+  type: "Deconvolution"
+  bottom: "deconv3-D"
+  top: "deconv4-D"
+  convolution_param {
+    num_output: 32
+    kernel_size: 5
+    stride: 2
+    pad: 1
+  }
+}
+
+layer {
+  name: "prelu4-D"
+  type: "PReLU"
+  bottom: "deconv4-D"
+  top: "deconv4-D"
+}
+
+layer {
+  name: "deconv5-D"
+  type: "Deconvolution"
+  bottom: "deconv4-D"
+  top: "deconv5-D"
+  convolution_param {
+    num_output: 32
+    kernel_size: 5
+    stride: 2
+    pad: 1
+  }
+}
+
+layer {
+  name: "prelu5-D"
+  type: "PReLU"
+  bottom: "deconv5-D"
+  top: "deconv5-D"
+}
+
+layer {
+  name: "conv6-D"
+  type: "Convolution"
+  bottom: "deconv5-D"
+  top: "conv6-D"
+  convolution_param {
+    num_output: 1
+    kernel_size: 5
+    stride: 1
+    pad: 2
+  }
+}
