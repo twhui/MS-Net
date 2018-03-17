@@ -1,10 +1,12 @@
 # Caffe for MS-Net (Multi-scale Network)
 This is the release of MS-Net (i.e. MSG-Net without RGB input) for the paper Depth Map Super-Resolution by Deep Multi-Scale Guidance in ECCV16. It comes with 4 trained networks (x2, x4, x8, x16) and 3 testing sets (A, B, C).
 
+To the best of our knowledge, MS-Net is the FIRST paper which uses convolution neural network (CNN) for upsampling depth images.
+
 For more details, please visit the <a href="http://mmlab.ie.cuhk.edu.hk/projects/guidance_SR_depth.html">project page </a>.
 
 # Dependency
-The codes are based on <a href="https://github.com/BVLC/caffe">caffe</a> and Matlab.
+We train our models using <a href="https://github.com/BVLC/caffe">caffe</a> and evaluate the results on Matlab.
 
 # Installation and Running
 You need to install <a href="https://github.com/BVLC/caffe">caffe</a> and remeber to complie matcaffe. You can put the folder <code>MSNet-release</code> in <code>caffe/examples</code>. Finally, you need to get into the the directory of <code>examples/MSNet-release</code>, and run <code>MSNet.m</code>. </li>
