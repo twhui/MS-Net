@@ -1,5 +1,5 @@
 # Caffe for MS-Net (Multi-scale Network)
-This repository is the release of <strong>MS-Net</strong> for our paper <a href="http://personal.ie.cuhk.edu.hk/~ccloy/files/eccv_2016_depth.pdf"><strong>Depth Map Super-Resolution by Deep Multi-Scale Guidance </strong></a> in ECCV16. It comes with 4 trained networks (x2, x4, x8, and x16) and 3 hole-filled testing sets (A, B, and C).
+This repository is the release of <strong>MS-Net</strong> for our paper <a href="http://personal.ie.cuhk.edu.hk/~ccloy/files/eccv_2016_depth.pdf"><strong>Depth Map Super-Resolution by Deep Multi-Scale Guidance </strong></a> in ECCV16. It comes with four trained networks (x2, x4, x8, and x16) one hole-filled RGBD training set, and three hole-filled RGBD testing sets (A, B, and C).
 
 To the best of our knowledge, MS-Net is the <strong>FIRST convolution neural network</strong> which attempts to <strong> upsample depth images</strong>.
 
@@ -17,6 +17,11 @@ You need to install <a href="https://github.com/BVLC/caffe">caffe</a> and remebe
 Please refer to <a href="https://github.com/twhui/MSG-Net">MSG-Net</a>.
 
 # License and Citation
-All code is provided for research purposes only and without any warranty. Any commercial use requires our consent. When using the code and/or training data in your research work, please cite the following paper:
-
-"T.-W. Hui, C. C. Loy and X. Tang, Depth Map Super-Resolution by Deep Multi-Scale Guidance, pp. 353–369, ECCV16".
+All code is provided for research purposes only and without any warranty. Any commercial use requires our consent. If our work helps your research or you use the code in your research, please cite the following paper:
+<pre><code>@InProceedings{hui2016,    
+  author = {Tak-Wai Hui and Chen Change Loy and and Xiaoou Tang},    
+  title  = {Depth Map Super-Resolution by Deep Multi-Scale Guidance},    
+  booktitle  = {European Conference on Computer Vision (ECCV)},    
+  pages = {353--369},  year = {2016},    
+  url = {http://mmlab.ie.cuhk.edu.hk/projects/guidance_SR_depth.html}
+ }
