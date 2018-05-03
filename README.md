@@ -11,7 +11,7 @@ For more details, please visit the <a href="http://mmlab.ie.cuhk.edu.hk/projects
 We train our models using <a href="https://github.com/BVLC/caffe">caffe</a> and evaluate the results on Matlab.
 
 # Installation and Running
-You need to install <a href="https://github.com/BVLC/caffe">caffe</a> and remeber to complie matcaffe. You can put the folder <code>MSNet-release</code> in <code>caffe/examples</code>. Finally, you need to get into the the directory of <code>examples/MSNet-release</code>, and run <code>MSNet.m</code>. </li>
+You need to install <a href="https://github.com/BVLC/caffe">caffe</a> and remeber to complie matcaffe. You can put the folder <code>MSNet-release</code> in <code>caffe/examples</code>. Finally, you need to get into the the directory of <code>examples/MSNet-release/util</code>, and run <code>MSNet.m</code>. </li>
 
 # Training data
 Please refer to <a href="https://github.com/twhui/MSG-Net">MSG-Net</a>.
