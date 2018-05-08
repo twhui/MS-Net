@@ -16,6 +16,9 @@ You need to install <a href="https://github.com/BVLC/caffe">caffe</a> and remebe
 # Training data
 Please refer to <a href="https://github.com/twhui/MSG-Net">MSG-Net</a>.
 
+# Testing data
+Testig set is available <code>MSG-Net/MSGNet-release/testing sets</code>.
+
 # License and Citation
 All code is provided for research purposes only and without any warranty. Any commercial use requires our consent. If our work helps your research or you use the code in your research, please cite the following paper:
 <pre><code>@InProceedings{hui2016,    
