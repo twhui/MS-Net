@@ -21,7 +21,7 @@ Testig set is available at the folder <code>MSNet-release/testing sets</code>.
 
 # License and Citation
 All code is provided for research purposes only and without any warranty. Any commercial use requires our consent. If our work helps your research or you use the code in your research, please cite the following paper:
-<pre><code>@InProceedings{hui2016,    
+<pre><code>@InProceedings{hui16msgnet,    
   author = {Tak-Wai Hui and Chen Change Loy and and Xiaoou Tang},    
   title  = {Depth Map Super-Resolution by Deep Multi-Scale Guidance},    
   booktitle  = {Proceedings of European Conference on Computer Vision (ECCV)},    
