@@ -1,9 +1,9 @@
-# Caffe for MS-Net (Multi-scale Network)
+# MS-Net (Multi-scale Network)
 This repository is the release of <strong>MS-Net</strong> for our paper <a href="http://personal.ie.cuhk.edu.hk/~ccloy/files/eccv_2016_depth.pdf"><strong>Depth Map Super-Resolution by Deep Multi-Scale Guidance </strong></a> in ECCV16. It comes with four trained networks (x2, x4, x8, and x16) one hole-filled RGBD training set, and three hole-filled RGBD testing sets (A, B, and C).
 
-To the best of our knowledge, MS-Net is the <strong>FIRST convolution neural network</strong> which attempts to <strong> upsample depth images</strong>.
+To the best of our knowledge, <strong>MS-Net</strong> is the <strong>FIRST convolution neural network</strong> which attempts to <i> upsample depth images</i>.
 
-Another <a href="https://github.com/twhui/MSG-Net">repository </a> for <strong>MSG-Net</strong> (with multi-scale guidance) is also available.
+Another <a href="https://github.com/twhui/MSG-Net">repository </a> for <strong>MSG-Net</strong> (multi-scale guidance network) is also available.
 
 For more details, please visit the <a href="http://mmlab.ie.cuhk.edu.hk/projects/guidance_SR_depth.html">project page </a>.
 
