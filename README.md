@@ -7,6 +7,16 @@ Another <a href="https://github.com/twhui/MSG-Net"><strong>repository</strong> <
 
 For more details, please visit <a href="http://mmlab.ie.cuhk.edu.hk/projects/guidance_SR_depth.html"><strong>my project page</strong></a>.
 
+# License and Citation
+All code is provided for research purposes only and without any warranty. Any commercial use requires our consent. When using any parts of the code package or the paper (<i>Depth Map Super-Resolution by Deep Multi-Scale Guidance</i>) in your work, please cite the following paper:
+
+<pre><code>@InProceedings{hui16msgnet,      
+ author = {Tak-Wai Hui and Chen Change Loy and and Xiaoou Tang},      
+ title  = {Depth Map Super-Resolution by Deep Multi-Scale Guidance},      
+ booktitle  = {Proceedings of European Conference on Computer Vision (ECCV)},     
+ pages = {353--369},  year = {2016},      
+ url = {http://mmlab.ie.cuhk.edu.hk/projects/guidance_SR_depth.html}}</code></pre>
+
 # Dependency
 We train our models using <a href="https://github.com/BVLC/caffe">caffe</a> and evaluate the results on Matlab.
 
@@ -18,13 +28,3 @@ Please refer to <a href="https://github.com/twhui/MSG-Net">MSG-Net</a>.
 
 # Testing data
 Testig set is available at the folder <code>MSNet-release/testing sets</code>.
-
-# License and Citation
-All code is provided for research purposes only and without any warranty. Any commercial use requires our consent. If our work helps your research or you use the code in your research, please cite the following paper:
-<pre><code>@InProceedings{hui16msgnet,    
-  author = {Tak-Wai Hui and Chen Change Loy and and Xiaoou Tang},    
-  title  = {Depth Map Super-Resolution by Deep Multi-Scale Guidance},    
-  booktitle  = {Proceedings of European Conference on Computer Vision (ECCV)},    
-  pages = {353--369},  year = {2016},    
-  url = {http://mmlab.ie.cuhk.edu.hk/projects/guidance_SR_depth.html}
- }
